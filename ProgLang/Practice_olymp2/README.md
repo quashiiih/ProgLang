@@ -26,7 +26,6 @@ print("%.3f" % w)
 ### Задача 4. Рубли и копейки
 ```py
 price = float(input())
-
 kops = round(price * 100)
 rub = kops // 100
 kop = kops % 100
@@ -145,7 +144,6 @@ print(ts)
 ### Задача 14. Игра в пробке
 ```py
 n = int(input())
-
 m = 0
 d = 0
 
