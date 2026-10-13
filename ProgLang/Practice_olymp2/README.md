@@ -55,14 +55,13 @@ print(b)
 
 ### Задача 7. Датчик пульса
 ```py
+import math
+
 d = input().split()
 n = int(d[0])
 t = float(d[1])
 pul = (n * 60) / t
-
-res = int(pul)
-if pul > res:
-    res = res + 1
+res = math.ceil(pul)
 print(res)
 ```
 
